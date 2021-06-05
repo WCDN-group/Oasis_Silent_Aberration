@@ -1,0 +1,6 @@
+
+{
+  "Name": "fly",
+  "Registry ID": "swampland:fly",
+  "Class": "net.mcreator.swampland.MCreatorFly.EntityCustom"
+}

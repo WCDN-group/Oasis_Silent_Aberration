@@ -16,11 +16,9 @@ static metalGetter as function()string[] = function () as string[] {
 
 static odNameToIItemStack as function(string)IItemStack[] = function (odName as string) as IItemStack[] {
     var IItemStackList as IItemStack[] = [];
-    if(odName != null) {
-        var odGet as IOreDictEntry = oreDict.get(odName);
-        for i in odGet.items {
-            IItemStackList += i;
-        }
+    var odGet as IOreDictEntry = oreDict.get(odName);
+    for i in odGet.items {
+        IItemStackList += i;
     } return IItemStackList;
 };
 

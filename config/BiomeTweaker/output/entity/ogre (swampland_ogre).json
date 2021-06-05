@@ -1,0 +1,6 @@
+
+{
+  "Name": "ogre",
+  "Registry ID": "swampland:ogre",
+  "Class": "net.mcreator.swampland.MCreatorOgre.EntityCustom"
+}

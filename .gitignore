@@ -53,3 +53,5 @@ nu-whitelist.txt
 patchouli_data.json
 scripts/.zsrc
 mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta
+mods.zip
+config/splash.properties

@@ -10,6 +10,13 @@ quests.prologue.1.name=萌芽
 
 text.prologue.1.name=忠告一句：“我们要永远敬畏黑暗”
 
+##Cot
+contenttweaker.part.crude_dust=污浊%s粉
+contenttweaker.part.cluster_broken=破碎%s矿簇
+contenttweaker.part.crude_ingot=粗制%s锭
+contenttweaker.part.pure_metal_fragments=纯净%s金属块
+contenttweaker.part.unformed_ingot=未成形的%s锭
+
 ##Skills
 
 reskillable.skill.modpack.providence=神眷

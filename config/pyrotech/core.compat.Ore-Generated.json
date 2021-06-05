@@ -53,7 +53,8 @@
       "slagColor": "fcee4b",
       "langKey": [
         "abyssalcraft:tile.abygolore",
-        "minecraft:tile.oreGold"
+        "minecraft:tile.oreGold",
+        "mist:tile.mist.gold_ore"
       ],
       "output": [
         "grimoireofgaia:shard:1",
@@ -64,7 +65,8 @@
       "slagColor": "d8af93",
       "langKey": [
         "abyssalcraft:tile.abyiroore",
-        "minecraft:tile.oreIron"
+        "minecraft:tile.oreIron",
+        "mist:tile.mist.iron_ore"
       ],
       "output": [
         "agricraft:agri_nugget:3",

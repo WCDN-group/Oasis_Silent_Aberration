@@ -1,0 +1,6 @@
+
+{
+  "Name": "swampzombie",
+  "Registry ID": "swampland:swampzombie",
+  "Class": "net.mcreator.swampland.MCreatorSwampZombie.EntityCustom"
+}
