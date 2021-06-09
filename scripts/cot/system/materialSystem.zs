@@ -13,10 +13,9 @@ val  metalBuild as int[string] = {
     "Gold" : 0xffff8b,
     "Abyssalnite" : 0x5722a0,
     "LiquifiedCoralium" : 0x129e6b,
-    "Dreadium" : 0xb13939 ,
-    "Ethaxium" : 0x969e8a,
     "Arkenium" : 0xc4c4c4,
     "Copper" : 0xd28a66,
+    "Tin" : 0xEAEDEC,
     "Aluminium" : 0xc6ced1,
     "Lead" : 0x6d748d,
     "Silver" : 0xeaf7ff,
@@ -24,9 +23,7 @@ val  metalBuild as int[string] = {
     "Uranium" : 0x7f9374,
     "Syrmorite" : 0x5660a5,
     "Octine" : 0xf5a615,
-    "Tungsten" : 0x646464,
     "Niobium" : 0xd1d3df,
-    "Antimony" : 0xe3e4c6
 };
 
 val alloyBuild as int[string] = {
@@ -36,7 +33,10 @@ val alloyBuild as int[string] = {
     "Constantan" : 0xff9e7f,
     "Electrum" : 0xffd051,
     "Steel" : 0xa2a2a2,
-
+    "Antimony" : 0xe3e4c6,
+    "Dreadium" : 0xb13939 ,
+    "Ethaxium" : 0x969e8a,
+    "Tungsten" : 0x646464,
 };
 
 for metals, color in metalBuild {
@@ -70,3 +70,4 @@ for alloy in alloyBuild {
         alloys.registerMaterialPart(alloy, "unformed_ingot");
         alloys.registerMaterialPart(alloy, "metal_alchemy_fluid");
 }
+
