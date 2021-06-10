@@ -4,6 +4,7 @@
 import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Fluid;
+import mods.contenttweaker.MaterialPartLocalizedNameSupplier;
 
 val osaFluidType = MaterialSystem.createPartType("alchemy_fluid", function(materialPart){
     val materialName as string = materialPart.getMaterial().getName();

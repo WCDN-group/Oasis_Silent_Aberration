@@ -4,12 +4,10 @@
 import scripts.grassUtils.CotUtils;
 import scripts.wcdnUtils.functions.Getter as getter;
 
-print(getter.metalGetter()[0]);
-
-val partBuild as string[] = ["cluster_broken", "crude_dust", "crude_ingot", "pure_metal_fragments", "unformed_ingot",];
+val partBuild as string[] = ["cluster_broken", "crude_dust", "crude_ingot", "pure_metal_fragments", "unformed_ingot", "potion",];
 
 val  metalBuild as int[string] = {
-    "Iron" : 0xd8d8d8 ,
+    "Iron" : 0xd8d8d8,
     "Gold" : 0xffff8b,
     "Abyssalnite" : 0x5722a0,
     "LiquifiedCoralium" : 0x129e6b,
@@ -34,8 +32,6 @@ val alloyBuild as int[string] = {
     "Electrum" : 0xffd051,
     "Steel" : 0xa2a2a2,
     "Antimony" : 0xe3e4c6,
-    "Dreadium" : 0xb13939 ,
-    "Ethaxium" : 0x969e8a,
     "Tungsten" : 0x646464,
 };
 
