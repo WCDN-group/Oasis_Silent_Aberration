@@ -59,3 +59,4 @@ hs_err_pid26792.log
 hs_err_pid15796.log
 config/splash.properties
 config/splash.properties
+*.log

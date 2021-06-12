@@ -41,14 +41,13 @@ val liquid as ILiquidStack[] = [
     <liquid:alchemy_fluid_iron>,
     <liquid:alchemy_fluid_gold>,
     <liquid:alchemy_fluid_abyssalnite>,
-    <liquid:alchemy_fluid_liquified_coralium>,
+    <liquid:alchemy_fluid_liquifiedcoralium>,
     <liquid:alchemy_fluid_arkenium>,
     <liquid:alchemy_fluid_copper>,
     <liquid:alchemy_fluid_tin>,
     <liquid:alchemy_fluid_aluminium>,
     <liquid:alchemy_fluid_lead>,
     <liquid:alchemy_fluid_silver>,
-    <liquid:alchemy_fluid_nickel>,
     <liquid:alchemy_fluid_nickel>,
     <liquid:alchemy_fluid_uranium>,
     <liquid:alchemy_fluid_syrmorite>,
@@ -67,7 +66,6 @@ val liquid2 as ILiquidStack[] = [
     <liquid:aluminium>,
     <liquid:lead>,
     <liquid:silver>,
-    <liquid:nickel>,
     <liquid:nickel>,
     <liquid:uranium>,
     <liquid:syrmorite>,
@@ -108,7 +106,7 @@ function MelterSystemNormal(liquid as ILiquidStack, metal as string, liquid2 as 
 
     BlastFurnace.addRecipe(crudeIngot, clusterBroken, 3000, <item:immersiveengineering:material:7> * 2);
     BlastFurnace.addRecipe(pureMetalFragments, potion, 3000, <item:pyrotech:material:32> * 3);
-    MetalPress.addRecipe(ingot, unformedIngot, <item:contenttweaker:mold_ingot>, 2048, 16);
+    MetalPress.addRecipe(ingot, unformedIngot, <item:contenttweaker:mold_ingot>, 2048);
     BottlingMachine.addRecipe(potion, <item:minecraft:glass_bottle>, liquid2);
     Crusher.addRecipe(clusterBroken, cluster, 2048, clusterBroken, 0.65);
     Crusher.addRecipe(crudeDust, crudeIngot, 2048, crudeDust, 0.65);
@@ -116,7 +114,6 @@ function MelterSystemNormal(liquid as ILiquidStack, metal as string, liquid2 as 
 
     DawnstoneAnvil.add([ingot * 2], unformedIngot * 2, unformedIngot);
     Stamper.add(unformedIngot, liquid * 144, <item:embers:stamp_bar>);
-    Melter.add(liquid * 144, nugget);
 
-    Transmutator.addTransmutation(unformedIngot, pureMetalFragments, 0.5);
+    Transmutator.addTransmutation(pureMetalFragments, unformedIngot,  0.5);
 }

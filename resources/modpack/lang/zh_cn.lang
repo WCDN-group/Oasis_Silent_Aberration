@@ -11,17 +11,19 @@ quests.prologue.1.name=萌芽
 text.prologue.1.name=忠告一句：“我们要永远敬畏黑暗”
 
 ##Cot
+item.contenttweaker.mold_ingot=金属冲压模具 : 金属锭
+
 contenttweaker.part.crude_dust=污浊%s粉
 contenttweaker.part.cluster_broken=破碎%s矿簇
 contenttweaker.part.crude_ingot=粗制%s锭
-contenttweaker.part.pure_metal_fragments=纯净%s金属块
+contenttweaker.part.pure_metal_fragments=纯净%s水晶
 contenttweaker.part.unformed_ingot=未成形的%s锭
-contenttweaker.part.potion=瓶装%s金属原液
+contenttweaker.part.potion=瓶装%s晶体原液
 
 base.material.iron=铁
 base.material.gold=金
 base.material.abyssalnite=渊素
-base.material.liquifiedcoralium=精炼珊瑚
+base.material.liquified_coralium=精炼珊瑚
 base.material.arkenium=阿肯钢
 base.material.copper=铜
 base.material.tin=锡
@@ -41,6 +43,33 @@ base.material.endorium=终末
 base.material.constantan=康铜
 base.material.electrum=琥珀金
 base.material.steel=钢
+
+fluid.fluid_alchemy=§3纯净炼金提纯液
+fluid.alchemy_fluid_abyssalnite=§e渊素晶体原液
+fluid.alchemy_fluid_aluminium=§e铝晶体原液
+fluid.alchemy_fluid_antimony=§e锑晶体原液
+fluid.alchemy_fluid_arkenium=§e阿肯钢晶体原液
+fluid.alchemy_fluid_bronze=§e青铜晶体原液
+fluid.alchemy_fluid_constantan=§e康铜晶体原液
+fluid.alchemy_fluid_copper=§e铜晶体原液
+fluid.alchemy_fluid_dawnstone=§e黎明石晶体原液
+fluid.alchemy_fluid_electrum=§e琥珀金晶体原液
+fluid.alchemy_fluid_endorium=§e终末晶体原液
+fluid.alchemy_fluid_gold=§e金晶体原液
+fluid.alchemy_fluid_iron=§e铁晶体原液
+fluid.alchemy_fluid_lead=§e铅晶体原液
+fluid.alchemy_fluid_liquifiedcoralium=§e珊瑚晶体原液
+fluid.alchemy_fluid_nickel=§e镍晶体原液
+fluid.alchemy_fluid_niobium=§e铌晶体原液
+fluid.alchemy_fluid_octine=§e炽炎铁晶体原液
+fluid.alchemy_fluid_silver=§e银晶体原液
+fluid.alchemy_fluid_steel=§e钢晶体原液
+fluid.alchemy_fluid_syrmorite=§e赛摩铜晶体原液
+fluid.alchemy_fluid_tin=§e锡晶体原液
+fluid.alchemy_fluid_tungsten=§e钨晶体原液
+fluid.alchemy_fluid_uranium=§e铀晶体原液
+
+##Other
 
 jaopca.entry.Iron=铁
 jaopca.entry.Gold=金
@@ -67,29 +96,6 @@ jaopca.entry.Constantan=康铜
 jaopca.entry.Electrum=琥珀金
 jaopca.entry.Steel=钢
 
-fluid.alchemy_fluid_abyssalnite=§e渊素金属原液
-fluid.alchemy_fluid_aluminium=§e铝金属原液
-fluid.alchemy_fluid_antimony=§e锑金属原液
-fluid.alchemy_fluid_arkenium=§e阿肯钢金属原液
-fluid.alchemy_fluid_bronze=§e青铜金属原液
-fluid.alchemy_fluid_constantan=§e康铜金属原液
-fluid.alchemy_fluid_copper=§e铜金属原液
-fluid.alchemy_fluid_dawnstone=§e黎明石金属原液
-fluid.alchemy_fluid_electrum=§e琥珀金金属原液
-fluid.alchemy_fluid_endorium=§e终末金属原液
-fluid.alchemy_fluid_gold=§e金金属原液
-fluid.alchemy_fluid_iron=§e铁金属原液
-fluid.alchemy_fluid_lead=§e铅金属原液
-fluid.alchemy_fluid_liquifiedcoralium=§e珊瑚金属原液
-fluid.alchemy_fluid_nickel=§e镍金属原液
-fluid.alchemy_fluid_niobium=§e铌金属原液
-fluid.alchemy_fluid_octine=§e炽炎铁金属原液
-fluid.alchemy_fluid_silver=§e银金属原液
-fluid.alchemy_fluid_steel=§e钢金属原液
-fluid.alchemy_fluid_syrmorite=§e赛摩铜金属原液
-fluid.alchemy_fluid_tin=§e锡金属原液
-fluid.alchemy_fluid_tungsten=§e钨金属原液
-fluid.alchemy_fluid_uranium=§e铀金属原液
 ##Skills
 
 reskillable.skill.modpack.providence=神眷
@@ -120,9 +126,6 @@ reskillable.skill.reskillable.defense=防御
 reskillable.skill.reskillable.farming=自然
 reskillable.skill.reskillable.magic=灵法
 reskillable.skill.reskillable.mining=采集
-
-##fluid
-fluid.fluid_alchemy=§3纯净炼金提纯液
 
 ##Book
 
