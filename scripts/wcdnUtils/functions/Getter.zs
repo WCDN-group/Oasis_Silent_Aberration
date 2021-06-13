@@ -2,6 +2,8 @@
 #loader preinit contenttweaker crafttweaker
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.item.IIngredient;
 
 static metalGetter as function()string[] = function () as string[] {
     var metalList as string[] = [];

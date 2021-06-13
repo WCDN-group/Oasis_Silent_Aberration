@@ -1,1 +1,2 @@
 mods.initialinventory.InvHandler.addStartingItem(<patchouli:guide_book>.withTag({"patchouli:book": "patchouli:modpack_book"}));
+mods.initialinventory.InvHandler.addStartingItem(<thaumcraft:thaumonomicon>);

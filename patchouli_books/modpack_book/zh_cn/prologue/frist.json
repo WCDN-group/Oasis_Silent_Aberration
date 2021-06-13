@@ -1,11 +1,11 @@
 {
-    "name": "text.prologue.frist.name",
+    "name": "其一",
     "icon": "minecraft:writable_book",
     "category": "prologue",
     "pages": [
         {
             "type": "text",
-            "text": "text.prologue.frist.pages_1"
+            "text": "不可思议，我还活着。"
         }
     ]
 }
