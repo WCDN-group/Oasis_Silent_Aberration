@@ -12,7 +12,8 @@ text.disable.info=[绿洲:寂变]%s已被禁用
 text.prologue.1.name=忠告一句：“我们要永远敬畏黑暗”
 
 ##Cot
-item.contenttweaker.mold_ingot=金属冲压模具 : 金属锭
+item.contenttweaker.mold_ingot.name=金属冲压模具 : 金属锭
+item.contenttweaker.staff_fluorescent.name=粗制荧光法杖
 
 contenttweaker.part.crude_dust=污浊%s粉
 contenttweaker.part.cluster_broken=破碎%s矿簇
